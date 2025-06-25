@@ -51,7 +51,8 @@ cd Flash_Ecommerce
 
 ---
 python -m venv venv
-# Activate the environment:
+
+# Activate:
 source venv/bin/activate        # macOS/Linux
 venv\Scripts\activate           # Windows
 
