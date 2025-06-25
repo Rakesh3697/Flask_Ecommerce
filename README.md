@@ -45,10 +45,10 @@ Flash_Ecommerce/
 
 ### 1. Clone the Repository
 
-```bash
+``bash
 git clone https://github.com/yourusername/Flash_Ecommerce.git
 cd Flash_Ecommerce
-exit
+
 ---
 python -m venv venv
 # Activate the environment:
