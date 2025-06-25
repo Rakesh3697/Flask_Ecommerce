@@ -45,18 +45,16 @@ Flash_Ecommerce/
 
 ### 1. Clone the Repository
 
-bash
+```bash
 git clone https://github.com/yourusername/Flash_Ecommerce.git
 cd Flash_Ecommerce
 exit
 ---
-Create a Virtual Environment (Optional)
-bash
-Copy
-Edit
 python -m venv venv
-source venv/bin/activate    # macOS/Linux
-venv\Scripts\activate       # Window
+# Activate the environment:
+source venv/bin/activate        # macOS/Linux
+venv\Scripts\activate           # Windows
+
 ---
  Install Requirements
 bash
