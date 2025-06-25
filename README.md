@@ -19,16 +19,16 @@ A modern and responsive e-commerce website built using **Flask**, **HTML**, **CS
 ## 🗂️ Project Structure
 
 Flash_Ecommerce/
-├── app.py
-├── templates/
-│ └── index.html
-├── static/
-│ ├── css/
-│ ├── js/
-│ └── images/
-├── requirements.txt
-├── Procfile
-└── README.md
+├── app.py                     ✅ Main Flask file
+├── requirements.txt           ✅ List of Python packages
+├── Procfile                   ✅ For Render to run your app
+├── templates/                 ✅ HTML files here
+│   └── index.html, ...
+├── static/                    ✅ CSS, JS, images, etc.
+│   ├── css/
+│   ├── js/
+│   └── images/
+
 
 
 ---
@@ -48,7 +48,7 @@ Flash_Ecommerce/
 ```bash
 git clone https://github.com/yourusername/Flash_Ecommerce.git
 cd Flash_Ecommerce
-
+---
 Create a Virtual Environment (Optional)
 bash
 Copy
@@ -56,19 +56,20 @@ Edit
 python -m venv venv
 source venv/bin/activate    # macOS/Linux
 venv\Scripts\activate       # Window
-
+---
  Install Requirements
 bash
 Copy
 Edit
 pip install -r requirements.txt
+---
 4. Run the Flask App
 bash
 Copy
 Edit
 python app.py
 Go to: http://localhost:5000
-
+---
 🌍 Deployment on Render
 Make sure you have requirements.txt and Procfile.
 
@@ -88,17 +89,16 @@ Build Command	(leave blank)
 Start Command	gunicorn app:app
 Runtime	Python
 Publish Dir	(leave blank)
-
+---
 Click "Create Web Service"
-
+---
 Your website will go live shortly 🚀
 
 🙌 Acknowledgements
 Inspired by modern UI/UX e-commerce designs
 
 Icons and assets used are from royalty-free resources
-
-📬 Contact
+---
 Author: Rakesh Rocky
 📧 Email: rakeshthangaraj89@gmail.com
 
