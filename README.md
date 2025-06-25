@@ -1,8 +1,23 @@
 # 🛍️ Flash_Ecommerce - Flask E-Commerce Website
 
-A responsive and modern e-commerce site built with **Flask**, **HTML**, **CSS**, and **JavaScript**. It includes product categories, promotional banners, and a clean UI with full mobile support.
+A modern and responsive e-commerce website built using **Flask**, **HTML**, **CSS**, and **JavaScript**. This project showcases a clean frontend design integrated with Flask as a lightweight backend for dynamic routing and asset management.
 
 ---
+
+## 🚀 Features
+
+- 🖼️ Responsive homepage with promotional banners
+- 🛒 Product listings with categories like clothes, shoes, watches, accessories, and more
+- 📱 Mobile-friendly navigation and menu
+- 📧 Newsletter subscription modal
+- 🌐 Static files served using Flask `url_for('static', ...)`
+- 💡 Clean and modern UI layout
+
+---
+
+## 🗂️ Project Structure
+
+
 
 ## 🚀 Getting Started
 
