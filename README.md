@@ -42,13 +42,9 @@ Flash_Ecommerce/
 ---
 
 ## 📦 Installation
-
-### 1. Clone the Repository
-
-```bash
+``bash
 git clone https://github.com/yourusername/Flash_Ecommerce.git
 cd Flash_Ecommerce
-
 ---
 python -m venv venv
 
