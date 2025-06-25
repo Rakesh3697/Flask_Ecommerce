@@ -48,6 +48,7 @@ Flash_Ecommerce/
 ```bash
 git clone https://github.com/yourusername/Flash_Ecommerce.git
 cd Flash_Ecommerce
+exit
 ---
 Create a Virtual Environment (Optional)
 bash
